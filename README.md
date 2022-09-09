@@ -15,3 +15,5 @@ git log
 
 Para ver el deralle del commit usamos 
 git show
+
+Prueba clone y push on mac 
