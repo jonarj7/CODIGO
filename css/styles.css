@@ -1,0 +1,35 @@
+/* Selectores */
+
+
+/* Selectores de elemento */
+h1 {
+    color: green;
+    background-color: beige;
+}
+
+/* Selectores de elemento */
+.titulo {
+    color: blue;
+    font-size: 30px;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+/* Selectores de elemento */
+
+#titulo_huawei{
+    color: yellow;
+}
+
+#div_temas{
+    display: none;
+}
+
+.big_table{
+    font-size: 30px;
+    border: 1px solid red;
+}
+
+.big_table th, td{
+    padding: 20px;
+}
