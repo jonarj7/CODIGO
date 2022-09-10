@@ -5,31 +5,63 @@
 h1 {
     color: green;
     background-color: beige;
-}
-
-/* Selectores de elemento */
-.titulo {
-    color: blue;
-    font-size: 30px;
-    background-color: blanchedalmond;
     padding: 20px;
+    text-align: center;
+    font-size: 20px;
 }
 
-/* Selectores de elemento */
-
-#titulo_huawei{
-    color: yellow;
-}
 
 #div_temas{
     display: none;
 }
 
-.big_table{
-    font-size: 30px;
-    border: 1px solid red;
+.product_cell{
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: beige;
 }
 
-.big_table th, td{
-    padding: 20px;
+.product_cell:hover{
+    border: 2px dashed rgb(181, 28, 28);
+    box-shadow: 0px 0px 10px #000;
+}
+
+.product_cell:hover > img{
+    opacity: 0.5;
+    height: 300px;
+}
+
+.laptop > h2{
+    color: blue;
+}
+
+.laptop > h3{
+    color: lightcoral;
+    text-align: right;
+    padding-right: 20px;
+    text-shadow: 2px 2px 5px rgb(143, 243, 225)
+}
+
+
+.celular > h2{
+    color: rgb(231, 120, 56);
+}
+
+.celular > h3{
+    color: rgb(102, 149, 97);
+    text-align: right;
+    padding-right: 20px;
+    text-shadow: 2px 2px 5px rgb(143, 243, 225)
+}
+
+.airpods > h2{
+    color: rgb(200, 32, 222);
+}
+
+.airpods > h3{
+    color: rgb(187, 224, 93);
+    text-align: right;
+    padding-right: 20px;
+    text-shadow: 2px 2px 5px rgb(143, 243, 225)
 }
