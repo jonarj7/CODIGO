@@ -65,3 +65,30 @@ h1 {
     padding-right: 20px;
     text-shadow: 2px 2px 5px rgb(143, 243, 225)
 }
+
+.div_form{
+    width: 400px;
+    margin: 20px auto;
+}
+
+/*
+.div_form > form > input{
+height: 40px;
+border: 1px solid coral;
+border-radius: 10px;
+width: 70%;
+font-size: 20px;
+padding-left: 15px;
+outline: none;
+} */
+
+.div_form > form > input:focus{
+border: 2px solid rgb(143, 48, 119);
+height: 50px;
+outline: none;
+}
+
+.div_form > form > button{
+    height: 40px;
+    border: 1px solid coral;
+}
