@@ -92,3 +92,10 @@ outline: none;
     height: 40px;
     border: 1px solid coral;
 }
+.price::before {
+    content: "$" ";
+    }
+
+    .price::after {
+        content: ".00";
+        }
