@@ -82,6 +82,10 @@ padding-left: 15px;
 outline: none;
 } */
 
+body {
+    font-family: "Poppins", sans-serif, Helvetica;
+  }
+  
 .div_form > form > input:focus{
 border: 2px solid rgb(143, 48, 119);
 height: 50px;
